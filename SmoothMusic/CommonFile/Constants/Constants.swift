@@ -15,3 +15,8 @@ enum Constants {
         static let euclidFont = UIFont(name: "Euclid-Circular-B", size: 30)
     }
 }
+// Storyboards
+enum AppStoryboard: String {
+    case main
+    case connected
+}
