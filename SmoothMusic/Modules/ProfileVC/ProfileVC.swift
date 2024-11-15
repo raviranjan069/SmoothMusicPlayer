@@ -25,6 +25,7 @@ class ProfileVC: UIViewController {
     
     // MARK: - Methods
     private func setupUI() {
+        // setup UI
         userProfileImageView.layer.cornerRadius = userProfileImageView.frame.height / 2
         userProfileImageView.contentMode = .scaleToFill
         userProfileImageView.image = UIImage(named: "userAnimoji")
